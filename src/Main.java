@@ -26,5 +26,6 @@ public class Main {
         Gryffindor harry = (Gryffindor) hogwarts[0];
         Gryffindor germ = (Gryffindor) hogwarts[1];
         harry.compare(germ);
+
     }
 }
