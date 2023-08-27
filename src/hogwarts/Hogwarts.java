@@ -7,18 +7,18 @@ public class Hogwarts {
     protected int power;
     protected int transpiration;
 
-    public Hogwarts(String name, int power , int transpiration) {
+    public Hogwarts(String name, int power, int transpiration) {
         this.name = name;
         this.power = power;
         this.transpiration = transpiration;
     }
 
-    public void compare(Hogwarts hogwarts){
-       if (power + transpiration > hogwarts.getPower() + hogwarts.getTranspiration()){
-           System.out.println( name + " сильнее " + hogwarts.getName());
-       }else {
-           System.out.println(hogwarts.getName() + " сильнее " + name);
-       }
+    public void compare(Hogwarts hogwarts) {
+        if (power + transpiration > hogwarts.getPower() + hogwarts.getTranspiration()) {
+            System.out.println(name + " сильнее " + hogwarts.getName());
+        } else {
+            System.out.println(hogwarts.getName() + " сильнее " + name);
+        }
 
 
     }

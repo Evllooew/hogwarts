@@ -1,6 +1,6 @@
 package hogwarts;
 
-public class Hufflepuff extends Hogwarts  {
+public class Hufflepuff extends Hogwarts {
     private int diligence;
     private int loyalty;
     private int honesty;
@@ -24,10 +24,11 @@ public class Hufflepuff extends Hogwarts  {
         return honesty;
     }
 
-    public void compare (Hufflepuff hufflepuff){
-        if (diligence + loyalty + honesty >   hufflepuff.getDiligence() + hufflepuff.getLoyalty() + hufflepuff.getHonesty()){
-            System.out.println( name + " сильнее " + hufflepuff.getName());
-        } else { System.out.println( hufflepuff.getName() + " сильнее " + name);
+    public void compare(Hufflepuff hufflepuff) {
+        if (diligence + loyalty + honesty > hufflepuff.getDiligence() + hufflepuff.getLoyalty() + hufflepuff.getHonesty()) {
+            System.out.println(name + " сильнее " + hufflepuff.getName());
+        } else {
+            System.out.println(hufflepuff.getName() + " сильнее " + name);
         }
 
     }

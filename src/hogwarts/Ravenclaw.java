@@ -1,6 +1,6 @@
 package hogwarts;
 
-public class Ravenclaw extends Hogwarts  {
+public class Ravenclaw extends Hogwarts {
     private int intelligence;
     private int wisdom;
     private int wit;
@@ -14,10 +14,11 @@ public class Ravenclaw extends Hogwarts  {
         this.creativity = creativity;
     }
 
-    public void compare (Ravenclaw ravenclaw){
-        if (intelligence + wisdom + wit + creativity>  ravenclaw.getIntelligence()  + ravenclaw.getWisdom() + ravenclaw.getWit() + ravenclaw.getCreativity()){
-            System.out.println( name + " сильнее " + ravenclaw.getName());
-        } else { System.out.println( ravenclaw.getName() + " сильнее " + name);
+    public void compare(Ravenclaw ravenclaw) {
+        if (intelligence + wisdom + wit + creativity > ravenclaw.getIntelligence() + ravenclaw.getWisdom() + ravenclaw.getWit() + ravenclaw.getCreativity()) {
+            System.out.println(name + " сильнее " + ravenclaw.getName());
+        } else {
+            System.out.println(ravenclaw.getName() + " сильнее " + name);
         }
 
     }
